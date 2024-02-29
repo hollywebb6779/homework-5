@@ -1,0 +1,59 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Comic Sans MS', cursive;
+    background: linear-gradient(to bottom, #AD2100,#FA948E); 
+  }
+  
+  header {
+    text-align: center;
+    padding: 75px 0;
+    font-family:'Comic Sans MS', cursive;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  .Tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Tools .item {
+    flex: 1 1 300px;
+    margin: 10px;
+    text-align: center;
+  }
+  .Tools img {
+    max-width: 100%;
+    height: auto;
+  }
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .about h2 {
+    grid-column: 1 / span 2;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .about img {
+    max-width: 100%;
+    height: auto;
+  }
